@@ -360,7 +360,7 @@ import java.util.regex.Pattern;
 public class CreditCardValidator {
 
   private static final Pattern ELO_PATTERN = Pattern.compile("^(4011|4312|4389|4514|4576|5041|5066|5090|6277|6362|6363|6500|6504|6505|6516|6550)\\d{12}$");
-
+ 
   public static boolean isElo(String cardNumber) {
     String sanitizedNumber = cardNumber.replaceAll("\\s+", "");
     return ELO_PATTERN.matcher(sanitizedNumber).matches();
