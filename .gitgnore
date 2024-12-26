@@ -1,0 +1,51 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pela IDEs
+.idea/
+*.iml
+*.class
+*.log
+*.swp
+
+# Arquivos e pastas do Eclipse
+.metadata/
+bin/
+*.war
+*.ear
+*.deploy
+
+# Arquivos e pastas do IntelliJ IDEA
+out/
+
+# Arquivos gerados por ferramentas de compilação
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# Arquivos de configurações locais
+*.env
+*.settings
+*.classpath
+*.project
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Dependências baixadas pelo Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Arquivos gerados pelo Gradle
+.gradle/
+build/
+
+# Dependências locais
+lib/
+
+# Outras configurações específicas do Java
+hs_err_pid*.log
