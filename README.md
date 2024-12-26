@@ -1,4 +1,4 @@
-# Credit Card API
+# Credit Card API Java
 
 Este projeto é uma API desenvolvida em Java 17 utilizando Spring Boot, que realiza a validação de números de cartões de crédito e identifica a bandeira do cartão. A API aceita números de cartões que podem conter espaços ou outros separadores, que são descartados durante o processamento.
 
